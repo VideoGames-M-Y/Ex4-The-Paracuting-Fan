@@ -8,7 +8,7 @@ In this game, you control a parachutist descending from the sky and use a fan to
 * Level progression: Complete each level by successfully landing the parachutist on the platform.
 * Dynamic difficulty: As the game progresses, different challenges increase in complexity.
 
-## How to Play
+## How to Play:
 * Start the Game: Launch the game and the parachutist will start descending.
 * Control the Fan: Use the mouse to position the fan in the game world. The fan will blow wind to guide the parachutist.
 * Landing: Aim to land the parachutist safely on the designated platform.
