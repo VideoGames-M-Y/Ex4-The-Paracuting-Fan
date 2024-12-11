@@ -6,7 +6,7 @@ In this game, you control a parachutist descending from the sky and use a fan to
 * Physics-based gameplay: The fan's wind force directly influences the parachutist's movement.
 * Fan Control: The player can manually position and rotate the fan to steer the parachutist.
 * Level progression: Complete each level by successfully landing the parachutist on the platform.
-* Dynamic difficulty: As the game progresses, the fan mechanics and the challenges increase in complexity.
+* Dynamic difficulty: As the game progresses, different challenges increase in complexity.
 
 ## How to Play
 * Start the Game: Launch the game and the parachutist will start descending.
