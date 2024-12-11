@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 
 [RequireComponent(typeof(Rigidbody))]
-
 public class Buoyancy : MonoBehaviour
 {
     public float underwaterDrag = 3f;
@@ -23,15 +22,18 @@ public class Buoyancy : MonoBehaviour
 
     void FixedUpdate()
     {
-        float difference =transform.position.y - waterLevel;
-        if (difference < 0){
+        float difference = transform.position.y - waterLevel;
+        if (difference < 0)
+        {
             rb.AddForceAtPosition(Vector3.up * floatingPower * Mathf.Abs(difference), transform.position, ForceMode.Force);
-            if (!isUnderwater){
+            if (!isUnderwater)
+            {
                 isUnderwater = true;
                 SwitchState(true);
             }
         }
-        else if (isUnderwater){
+        else if (isUnderwater)
+        {
             isUnderwater = false;
             SwitchState(false);
         }
@@ -50,6 +52,4 @@ public class Buoyancy : MonoBehaviour
             rb.angularDamping = airAngularDrag;
         }
     }
-
-   
 }
